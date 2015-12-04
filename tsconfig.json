@@ -6,7 +6,10 @@
     "experimentalDecorators": true
   },
   "files": [
+    "app/details.ts",
+    "app/main-page.ts",
     "app/main-view-model.ts",
+    "app/parseutils.ts",
     "app/references.d.ts",
     "node_modules/tns-core-modules/tns-core-modules.d.ts"
   ],

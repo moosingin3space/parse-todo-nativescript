@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/ParseFacebookUtilsV4-1.10.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b2cc313c93e9401d61d5c85e8b6211022f4d108c">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.10.3-29b876ff6abd1af65ac86e07e1e5ac40f1796e77.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-05cc19b865c0f6d820106a8bb9ccbba93bbb22cc.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/ParseTwitterUtils-1.10.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3d4ac70bc5f68b818fd44cd58b3ea70566118075">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/ParseTwitterUtils-1.10.3-c8d1df0085c3c82a88e39e27f9dc398b7d07a0be.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/ParseInterceptors-0.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="32d3657910224f3b11e554653e02f31716584c2a">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/ParseInterceptors-0.0.1-605de23b40f54817de9306a8967bfecb7ea6fa23.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/Parse-1.11.0-44427e0773e382ea8f0d5973ea22f5241dbaa25c.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/lib/Android/ParseFacebookUtilsV3-1.10.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="69189060a2515308c180a56f65ddaffe4a724c85">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV3-1.10.3-1ebf26a3b451d5478115ec94b9386a99020ba3b3.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/libs/nativescript.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5fbb3d912cf38709dccac745877a2cbf38fa81e0">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/nativescript-734c26751b2e8bd3470e7d99eec6593765563db3.jar" />
+    </item>
+    <item
+        jar="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/libs/widgets.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ff3c62a8eb22f0111b882125ad1579dc6273fd90">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/widgets-14984c9931488ee9bbbef96306ec98b3301f953d.jar" />
+    </item>
+    <item
+        jar="/home/nathan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/nathan/michigan-hackers/parse-todo-nativescript/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-8d4888375afb34dde3b7674de124dfda3c6ae99d.jar" />
+    </item>
+
+</items>

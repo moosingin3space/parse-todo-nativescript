@@ -1,5 +1,5 @@
 import observable = require("data/observable");
-import parseUtils = require('./parseutils");
+import parseUtils = require("./parseutils");
 export class LoginController extends observable.Observable {
     username : string;
     password : string;
@@ -8,9 +8,14 @@ export class LoginController extends observable.Observable {
 
         this.username = "";
         this.password = "";
+        this.set("message", "waiting for login");
     }
 
     loginAction() {
-        // TODO log in with Parse
+        parseUtils.login(this.username, this.password).then(success => {
+            this.set("message", "Login success!");
+        }).catch(failure => {
+            this.set("message", "Login failed!");
+        });
     }
 }

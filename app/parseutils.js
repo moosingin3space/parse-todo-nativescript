@@ -1,0 +1,28 @@
+var app = require("application");
+var details = require("./details");
+var parsePackage = com.parse;
+var Parse = parsePackage.Parse;
+var ParseUser = parsePackage.ParseUser;
+var LogInCallback = parsePackage.LogInCallback;
+function initialize() {
+    Parse.initialize(app.android, details.ParseID(), details.ParseClient());
+}
+exports.initialize = initialize;
+;
+function login(username, password) {
+    return new Promise(function (resolve, reject) {
+        ParseUser.logInInBackground(username, password, LogInCallback({
+            done: function (user, e) {
+                if (user != null) {
+                    resolve(user);
+                }
+                else {
+                    reject(e);
+                }
+            }
+        }));
+    });
+}
+exports.login = login;
+;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFyc2V1dGlscy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInBhcnNldXRpbHMudHMiXSwibmFtZXMiOlsiaW5pdGlhbGl6ZSIsImxvZ2luIl0sIm1hcHBpbmdzIjoiQUFFQSxJQUFPLEdBQUcsV0FBVyxhQUFhLENBQUMsQ0FBQztBQUNwQyxJQUFPLE9BQU8sV0FBVyxXQUFXLENBQUMsQ0FBQztBQUV0QyxJQUFJLFlBQVksR0FBRyxHQUFHLENBQUMsS0FBSyxDQUFDO0FBQzdCLElBQUksS0FBSyxHQUFHLFlBQVksQ0FBQyxLQUFLLENBQUM7QUFDL0IsSUFBSSxTQUFTLEdBQUcsWUFBWSxDQUFDLFNBQVMsQ0FBQTtBQUN0QyxJQUFJLGFBQWEsR0FBRyxZQUFZLENBQUMsYUFBYSxDQUFDO0FBRS9DO0lBQ0lBLEtBQUtBLENBQUNBLFVBQVVBLENBQUNBLEdBQUdBLENBQUNBLE9BQU9BLEVBQUVBLE9BQU9BLENBQUNBLE9BQU9BLEVBQUVBLEVBQUVBLE9BQU9BLENBQUNBLFdBQVdBLEVBQUVBLENBQUNBLENBQUNBO0FBQzVFQSxDQUFDQTtBQUZlLGtCQUFVLGFBRXpCLENBQUE7QUFBQSxDQUFDO0FBRUYsZUFBc0IsUUFBUSxFQUFFLFFBQVE7SUFDcENDLE1BQU1BLENBQUNBLElBQUlBLE9BQU9BLENBQU1BLFVBQVNBLE9BQU9BLEVBQUVBLE1BQU1BO1FBQzVDLFNBQVMsQ0FBQyxpQkFBaUIsQ0FBQyxRQUFRLEVBQUUsUUFBUSxFQUFFLGFBQWEsQ0FBQztZQUMxRCxJQUFJLEVBQUUsVUFBUyxJQUFJLEVBQUUsQ0FBQztnQkFDbEIsRUFBRSxDQUFDLENBQUMsSUFBSSxJQUFJLElBQUksQ0FBQyxDQUFDLENBQUM7b0JBQ2YsT0FBTyxDQUFDLElBQUksQ0FBQyxDQUFDO2dCQUNsQixDQUFDO2dCQUFDLElBQUksQ0FBQyxDQUFDO29CQUNKLE1BQU0sQ0FBQyxDQUFDLENBQUMsQ0FBQztnQkFDZCxDQUFDO1lBQ0wsQ0FBQztTQUNKLENBQUMsQ0FBQyxDQUFDO0lBQ1IsQ0FBQyxDQUFDQSxDQUFDQTtBQUNQQSxDQUFDQTtBQVplLGFBQUssUUFZcEIsQ0FBQTtBQUFBLENBQUMifQ==
