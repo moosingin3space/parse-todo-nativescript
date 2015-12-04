@@ -1,19 +1,16 @@
 import observable = require("data/observable");
-export class HelloWorldModel extends observable.Observable {
+import parseUtils = require('./parseutils");
+export class LoginController extends observable.Observable {
+    username : string;
+    password : string;
     constructor() {
         super();
 
-        this.counter = 42;
-        this.set("message", this.counter + " taps left");
+        this.username = "";
+        this.password = "";
     }
 
-    tapAction() {
-        this.counter--;
-        if (this.counter <= 0) {
-            this.set("message", "Hoorraaay! You unlocked the NativeScript clicker achievement!");
-        } else {
-            this.set("message", this.counter + " taps left");
-        }
+    loginAction() {
+        // TODO log in with Parse
     }
 }
-export mainViewModel = new HelloWorldModel();
